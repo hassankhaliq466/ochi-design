@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ochi Design</title>  
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+</head>
+<body>
+
+    <div class="main bg-[#F1F1F1]">
+        <div class="intro w-full h-screen absolute left-0 top-0 bg-[#212020] overflow-hidden">
+            <div class="back-cover-1 scale-[.7] w-full h-screen bg-[#4a4a4b] absolute z-1 top-1/2 left-[56%] translate-x-[-50%] translate-y-[-50%] rounded-lg"></div>
+            <div class="back-cover-2 scale-[.6] w-full h-screen bg-[#4a4a4b] absolute z-2 top-1/2 left-[62%] translate-x-[-50%] translate-y-[-50%] rounded-lg"></div>
+        </div>
+        <div class="page1-clone overflow-hidden relative w-full h-screen flex flex-col justify-between bg-[#F1F1F1]">
+            <nav class="w-full h-20 absolute top-0 left-0 px-[5vw] py-2 flex items-center justify-between font-['neu']">
+                <div class="logo">
+                    <svg width="72" height="30" viewBox="0 0 72 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.8393 10.2032C4.22951 10.3257 -0.0459221 14.7356 0.000372391 20.2752C0.0412204 25.3548 4.57808 30.3608 10.6862 29.9226C15.5145 29.5768 19.9015 25.4119 19.8525 20.0057C19.8035 14.5995 15.1904 10.0916 9.8393 10.2032ZM9.89649 25.7005C6.87101 25.7005 4.39834 23.1144 4.40924 19.9839C4.39525 19.2507 4.52792 18.522 4.79947 17.8407C5.07102 17.1594 5.47597 16.5392 5.99056 16.0164C6.50515 15.4937 7.11902 15.0789 7.79613 14.7966C8.47324 14.5142 9.19995 14.3698 9.93362 14.372C10.6673 14.3742 11.3931 14.5228 12.0686 14.8092C12.744 15.0956 13.3554 15.514 13.8668 16.0398C14.3783 16.5656 14.7796 17.1882 15.0471 17.8711C15.3146 18.554 15.4429 19.2834 15.4246 20.0166C15.4409 23.1008 12.9111 25.7059 9.88832 25.7005H9.89649Z" fill="currentColor"></path>
+                        <path d="M62.8086 29.4855H67.1222V10.6372H62.8086V29.4855Z" fill="currentColor"></path>
+                        <path d="M67.6816 0.172852V6.13439H71.5322C71.6738 6.13439 71.8046 6.13439 72.0006 6.11534V0.172852H67.6816Z" fill="currentColor"></path>
+                        <path d="M31.5648 25.7016C28.5393 25.7016 26.0667 23.1156 26.0776 19.9851C26.0936 18.5291 26.6764 17.1366 27.7023 16.1029C28.7282 15.0692 30.1166 14.4757 31.573 14.4482C32.4198 14.4541 33.2537 14.6557 34.0095 15.0373C34.7654 15.4188 35.4227 15.97 35.9301 16.6477L40.0667 15.0144C38.2884 12.0853 35.0669 10.1145 31.4995 10.1989C25.8897 10.3214 21.6142 14.7313 21.6605 20.2709C21.7014 25.3505 26.2382 30.3565 32.3464 29.9183C33.9908 29.7803 35.5761 29.2408 36.9631 28.347C38.3501 27.4532 39.4963 26.2326 40.3009 24.7924L36.2542 22.9931C35.7705 23.8086 35.0851 24.486 34.2638 24.9604C33.4426 25.4347 32.5132 25.69 31.5648 25.7016Z" fill="currentColor"></path>
+                        <path d="M52.4097 10.1387C51.2512 10.1119 50.1066 10.3947 49.0941 10.958C48.0816 11.5212 47.2379 12.3445 46.6501 13.3427V0.172852H42.293V29.4688H46.6501C46.6501 29.1721 46.6501 18.7816 46.6501 18.7816C46.6501 15.6946 47.8619 13.4352 50.8084 13.4352C54.6046 13.4352 54.6209 17.4178 54.6209 19.6962C54.6209 22.9165 54.6209 25.5189 54.6209 28.7393V29.4987H59.0271C59.0271 29.3708 59.0488 29.2728 59.0488 29.1721C59.0488 25.5108 59.0951 21.8522 59.0325 18.1909C58.9916 15.6538 58.5015 10.1387 52.4097 10.1387Z" fill="currentColor"></path>
+                    </svg>
+                </div>
+            </nav>
+            <div class="hero text-[18vw] sm:text-[9vw] font-['neu2'] leading-[18vw] sm:leading-[7vw] flex items-start pt-24 px-[5vw] justify-start sm:justify-center w-full h-[75%] sm:h-[75%] flex-col">
+                <h1>WE CREATE</h1>
+                <span class="eye-h1 relative w-full flex h-[12vw] sm:h-[6vw] items-center gap-2">
+                    <div class="img w-0"></div>
+                    <h1>EYE-OPENING</h1>
+                </span>
+                <h1>PRESENTATIONS</h1>
+            </div>
+            <div class="hero-footer2 w-full h-[5%] px-[5vw] py-[4vw] sm:px-16 flex items-end justify-between">
+                <p>Loading:</p>
+                <p class="loading-persentage text-[18vw] leading-[15vw] sm:text-[10vw] sm:leading-[7vw] font-['neu2']">100%</p>
+            </div>
+        </div>
+        <div class="page1 section1 relative w-full h-screen bg-[#F1F1F1]">
+            <nav class="w-full h-20 absolute top-0 left-0 px-[5vw] py-2 flex items-center justify-between font-['neu']">
+                <div class="logo">
+                    <svg width="72" height="30" viewBox="0 0 72 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.8393 10.2032C4.22951 10.3257 -0.0459221 14.7356 0.000372391 20.2752C0.0412204 25.3548 4.57808 30.3608 10.6862 29.9226C15.5145 29.5768 19.9015 25.4119 19.8525 20.0057C19.8035 14.5995 15.1904 10.0916 9.8393 10.2032ZM9.89649 25.7005C6.87101 25.7005 4.39834 23.1144 4.40924 19.9839C4.39525 19.2507 4.52792 18.522 4.79947 17.8407C5.07102 17.1594 5.47597 16.5392 5.99056 16.0164C6.50515 15.4937 7.11902 15.0789 7.79613 14.7966C8.47324 14.5142 9.19995 14.3698 9.93362 14.372C10.6673 14.3742 11.3931 14.5228 12.0686 14.8092C12.744 15.0956 13.3554 15.514 13.8668 16.0398C14.3783 16.5656 14.7796 17.1882 15.0471 17.8711C15.3146 18.554 15.4429 19.2834 15.4246 20.0166C15.4409 23.1008 12.9111 25.7059 9.88832 25.7005H9.89649Z" fill="currentColor"></path>
+                        <path d="M62.8086 29.4855H67.1222V10.6372H62.8086V29.4855Z" fill="currentColor"></path>
+                        <path d="M67.6816 0.172852V6.13439H71.5322C71.6738 6.13439 71.8046 6.13439 72.0006 6.11534V0.172852H67.6816Z" fill="currentColor"></path>
+                        <path d="M31.5648 25.7016C28.5393 25.7016 26.0667 23.1156 26.0776 19.9851C26.0936 18.5291 26.6764 17.1366 27.7023 16.1029C28.7282 15.0692 30.1166 14.4757 31.573 14.4482C32.4198 14.4541 33.2537 14.6557 34.0095 15.0373C34.7654 15.4188 35.4227 15.97 35.9301 16.6477L40.0667 15.0144C38.2884 12.0853 35.0669 10.1145 31.4995 10.1989C25.8897 10.3214 21.6142 14.7313 21.6605 20.2709C21.7014 25.3505 26.2382 30.3565 32.3464 29.9183C33.9908 29.7803 35.5761 29.2408 36.9631 28.347C38.3501 27.4532 39.4963 26.2326 40.3009 24.7924L36.2542 22.9931C35.7705 23.8086 35.0851 24.486 34.2638 24.9604C33.4426 25.4347 32.5132 25.69 31.5648 25.7016Z" fill="currentColor"></path>
+                        <path d="M52.4097 10.1387C51.2512 10.1119 50.1066 10.3947 49.0941 10.958C48.0816 11.5212 47.2379 12.3445 46.6501 13.3427V0.172852H42.293V29.4688H46.6501C46.6501 29.1721 46.6501 18.7816 46.6501 18.7816C46.6501 15.6946 47.8619 13.4352 50.8084 13.4352C54.6046 13.4352 54.6209 17.4178 54.6209 19.6962C54.6209 22.9165 54.6209 25.5189 54.6209 28.7393V29.4987H59.0271C59.0271 29.3708 59.0488 29.2728 59.0488 29.1721C59.0488 25.5108 59.0951 21.8522 59.0325 18.1909C58.9916 15.6538 58.5015 10.1387 52.4097 10.1387Z" fill="currentColor"></path>
+                    </svg>
+                </div>
+                <menu class="w-[50%] h-full sm:flex hidden justify-between gap-5 py-[2vw]">
+                    <div class="menubtn flex gap-5">
+                        <h3>Services</h3>
+                        <h3>Our work</h3>
+                        <h3>About us</h3>
+                        <h3>Insights</h3>
+                    </div>
+                    <div class="contact">
+                        <h3>Contact us</h3>
+                    </div>
+                </menu>
+                <div class="menuBtn flex lg:hidden">
+                    <svg class="nav-toggle" width="24" height="9" viewBox="0 0 24 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="24" y1="8" x2="-4.37114e-08" y2="8" stroke="currentColor"></line>
+                        <line x1="24" y1="1" x2="4.37114e-08" y2="1" stroke="currentColor"></line>
+                    </svg>
+                </div>
+            </nav>
+            <div class="hero text-[18vw] sm:text-[9vw] font-['neu2'] leading-[18vw] sm:leading-[7vw] flex items-start pt-24 px-[5vw] justify-start sm:justify-center w-full h-[75%] sm:h-[75%] flex-col">
+                <h1>WE CREATE</h1>
+                <span class="eye-h1 relative w-full flex h-[12vw] sm:h-[6vw] items-center gap-2">
+                    <div class="img"></div>
+                    <h1>EYE-OPENING</h1>
+                </span>
+                <h1>PRESENTATIONS</h1>
+            </div>
+            <div class="hero-footer w-full h-[25%] sm:h-[10%] px-[5vw] flex flex-col sm:flex-row items-start sm:items-center py-[5vw] justify-between border-t-[1px] border-[#D2D2D2]">
+                <p>For public and private companies</p>
+                <p class="sm:ml-20">From the first pitch to IPO</p>
+                <div class="projectBtn cursor-pointer group/edit flex gap-1">
+                    <p class="sm:w-[13vw] text-[3.8vw] sm:text-[1vw] w-[47vw] h-[8vw] sm:h-[2vw] flex group-hover/edit:bg-black group-hover/edit:text-white transition-all font-['neu'] items-center justify-center rounded-full border-[1px] border-black">
+                        START THE PROHJECT
+                    </p>
+                    <span class="sm:w-[2.1vw] sm:h-[2.1vw] w-[8vw] h-[8vw] group-hover/edit:bg-black group-hover/edit:text-white transition-all flex items-center justify-center rounded-full border-[1px] border-black"><i class="ri-arrow-right-up-line"></i></span>
+                </div>
+            </div>
+            <div class="hero-footer2 hidden w-full h-[15%] px-16 flex items-center justify-between">
+                <p>Loading:</p>
+                <p class="loading-persentage text-[10vw] leading-[7vw] font-['neu2']">100%</p>
+            </div>
+        </div>
+        <div class="page3 section w-full min-h-screen flex flex-col">
+            <div class="page2 w-full h-[40vh] sm:h-[60vh] rounded-t-xl flex items-center bg-[#004D43]">
+                <div class="moving-text h-[40vw] sm:h-[22vw] flex items-center justify-center border-t-[2px] border-b-[2px] border-white text-white text-[40vw] sm:text-[25vw] font-['neu2'] flex whitespace-nowrap overflow-x-auto gap-6 overflow-hidden">
+                    <h1>WE ARE OCHI </h1>
+                    <h1>WE ARE OCHI </h1>
+                    <h1>WE ARE OCHI </h1>
+                </div>
+            </div>
+            <div class="about rounded-t-xl bg-[#CDEA68] flex flex-col items-center py-5 gap-20">
+                <div class="about-heading w-full px-[5vw] sm:px-14 text-[7.1vw] sm:text-[3.5vw] leading-none font-['neu'] pt-24">
+                    <h1 class="w-[80%]">Ochi is a strategic partner for fast-grow­ing tech businesses that need to <p class="border-b-[3px] border-black inline-block">raise funds</p>, <p class="border-b-[3px] border-black inline-block">sell prod­ucts</p>, <p class="border-b-[3px] border-black inline-block">ex­plain com­plex ideas</p>, and <p class="border-b-[3px] border-black inline-block">hire great peo­ple.</p></h1>
+                </div>
+                <div class="about-details bg-[#CDEA68] flex flex-col sm:flex-row w-full sm:px-14 px-[5vw] py-2 border-t-[1px] border-[#B5CE5E]">
+                    <div class="details-left items-center flex justify-start w-full sm:w-1/2 h-full">
+                        <p>What you can expect:</p>
+                    </div>
+                    <div class="details-right w-full sm:w-[42%] md:w-[80%] h-full flex items-end justify-between">
+                        <div class="details w-1/2 h-full flex flex-col gap-20">
+                            <p>We create tailored presentations to help you persuade your colleagues, clients, or investors. Whether it’s live or digital, delivered for one or a hundred people.</p>
+                            <p>We believe the mix of strategy and design (with a bit of coffee) is what makes your message clear, convincing, and captivating.</p>
+                        </div>
+                        <div class="social-con sm:w-[20%]">
+                            <p>S:</p>
+                            <div class="social flex flex-col items-start">
+                                <p class="border-b-[2px] inline-block border-black">Instagram</p>
+                                <p class="border-b-[2px] inline-block border-black">Behance</p>
+                                <p class="border-b-[2px] inline-block border-black">Facebook</p>
+                                <p class="border-b-[2px] inline-block border-black">Linkedin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ourApproach bg-[#CDEA68] flex flex-col sm:flex-row w-full px-[5vw] sm:px-14 py-2 border-t-[1px] border-[#B5CE5E] gap-5 sm:gap-0">
+                    <div class="left-Approach w-full sm:w-1/2 flex flex-col gap-5">
+                        <h1 class="sm:text-[4vw] text-[9vw]">Our approach:</h1>
+                        <div class="readmoreBtn cursor-pointer group/edit flex w-[40vw] h-[13vw] sm:w-[12vw] sm:h-[4vw] bg-black text-sm text-white rounded-full items-center font-['neu'] justify-between px-[2vw] sm:px-[.5vw] pl-[5vw] sm:pl-6 uppercase">
+                            <p class="sm:text-[1vw] text-[3.3vw]">read more</p>
+                            <span class="sm:w-[3vw] w-[8vw] h-[8vw] sm:h-[3vw] group-hover/edit:scale-[1] transition-all scale-[.2] rounded-full text-black flex items-center justify-center text-lg bg-white"><i class="ri-arrow-right-up-line"></i></span>
+                        </div>
+                    </div>
+                    <div class="right-Approach w-full sm:w-1/2">
+                        <div class="img-con w-[100%] rounded-xl overflow-hidden">
+                            <img src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg" alt="" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page4 section w-full relative sm:h-screen h-[30vh] overflow-hidden bg-no-repeat bg-cover bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg')] flex items-center justify-center">
+            <div class="eye-con w-full h-full items-center justify-center flex gap-[3vw]">
+                <div class="eye w-[30vw] h-[30vw] sm:w-[15vw] sm:h-[15vw] cursor-pointer rounded-full bg-white flex items-center justify-center">
+                    <div class="eye-ball w-[20vw] h-[20vw] sm:w-[10vw] sm:h-[10vw] rounded-full bg-black flex items-center justify-center relative text-white overflow-hidden">
+                        <p class="absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-[2.5vw] sm:text-[1vw]">PLAY</p>
+                        <div class="line w-full h-5 flex justify-end">
+                            <div class="ball w-[3vw] h-[3vw] sm:w-[1.2vw] sm:h-[1.2vw] bg-white rounded-full"></div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="eye w-[30vw] h-[30vw] sm:w-[15vw] sm:h-[15vw] cursor-pointer rounded-full bg-white flex items-center justify-center">
+                    <div class="eye-ball w-[20vw] h-[20vw] sm:w-[10vw] sm:h-[10vw] rounded-full bg-black flex items-center justify-center relative text-white">
+                        <p class="absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-[2.5vw] sm:text-[1vw]">PLAY</p>
+                        <div class="line w-full h-[1vw] sm:h-[3vw] flex justify-end">
+                            <div class="ball w-[3vw] h-[3vw] sm:w-[1.2vw] sm:h-[1.2vw] bg-white rounded-full"></div>
+                        </div>
+                    </div> 
+                </div>         
+            </div>
+            <div class="video-con hidden absolute top-0 left-0 z-10 w-full h-screen">
+                <div class="curser w-16 h-6 absolute top-0 left-0 bg-black text-white flex items-center justify-center rounded-md">PUASE</div>
+                <video autoplay muted loop src="https://ochi.design/wp-content/uploads/2022/05/Main-HQ-1.mp4" class="w-full h-full object-cover"></video>
+            </div>
+        </div>
+        <div class="page5 section1 flex-col w-full min-h-screen">
+            <div class="porject-heading text-[8vw] sm:text-[3.5vw] font-['neu'] flex items-end py-[1vw] sm:py-10 px-[5vw] sm:px-[5vw] w-full h-[20vw] sm:h-[12vw] border-b-[1px] border-black">
+                <h1>Featured projects</h1>
+            </div>
+            <div class="projects-con w-full flex gap-20 relative flex-wrap justify-between sm:px-[5vw] px-[5vw] py-10 text-[4vw] sm:text-[1.2vw]">
+                <div class="project-row relative flex flex-col sm:flex-row gap-5">
+                    <div data-name="FYDE" class="project group/edit w-full sm:w-[49%] flex flex-col gap-5 cursor-pointer">
+                        <li>FYDE</li>
+                        <div class="project-img group-hover/edit:scale-[.9] transition-all duration-700 w-full h-full overflow-hidden rounded-lg">
+                            <img src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-1326x1101.png" alt="" class="w-full h-full object-cover group-hover/edit:scale-[1.2] transition-all duration-700">
+                        </div>
+                        <div class="project-details flex flex-wrap gap-[2vw] sm:gap-[.5vw]">
+                            <p class="w-[16vw] h-[6vw] sm:w-[5vw] sm:h-[2vw] flex items-center justify-center border-black border-[1px] rounded-full">AUDIT</p>
+                            <p class="w-[33vw] h-[6vw] sm:w-[10vw] sm:h-[2vw] flex items-center justify-center border-black border-[1px] rounded-full">COPYWRITTING</p>
+                            <p class="w-[25vw] h-[6vw] sm:w-[8vw] sm:h-[2vw] flex items-center justify-center border-black border-[1px] rounded-full">SALESDECK</p>
+                            <p class="w-[33vw] h-[6vw] sm:w-[10vw] sm:h-[2vw] flex items-center justify-center border-black border-[1px] rounded-full">SLIDES DESIGN</p>
+                        </div>
+                    </div>
+                    <div id="FYDE" class="project-name overflow-hidden text-[14vw] sm:text-[10vw] leading-[7vw] font-['neu2'] absolute top-[25%] left-1/2 sm:top-1/2 sm:left-1/2 z-10 translate-x-[-50%] translate-y-[-50%] text-[#CDEA68] flex">
+                        <span>F</span>
+                        <span>Y</span>
+                        <span>D</span>
+                        <span>E</span>
+                    </div>
+                    <div id="VISE" class="project-name overflow-hidden text-[14vw] sm:text-[10vw] leading-[7vw] font-['neu2'] absolute top-[75%] left-1/2 sm:top-1/2 sm:left-1/2 z-10 translate-x-[-50%] translate-y-[-50%] text-[#CDEA68] flex">
+                        <span>V</span>
+                        <span>I</span>
+                        <span>S</span>
+                        <span>E</span>
+                    </div>
+                    <div data-name="VISE" class="project group/edit w-full sm:w-[49%] flex flex-col gap-5 cursor-pointer">
+                        <li>VISE</li>
+                        <div class="project-img group-hover/edit:scale-[.9] transition-all duration-700 w-full h-full overflow-hidden rounded-lg">
+                            <img src="https://ochi.design/wp-content/uploads/2022/09/Vise_front2-1326x1101.jpg" alt="" class="w-full h-full object-cover group-hover/edit:scale-[1.2] transition-all duration-700">
+                        </div>
+                        <div class="project-details flex gap-[2vw] sm:gap-[.5vw]">
+                            <p class="w-[23vw] h-[6vw] sm:w-[7vw] sm:h-[2vw] flex items-center justify-center border-black border-[1px] rounded-full">AGENCY</p>
+                            <p class="w-[53vw] h-[6vw] sm:w-[16vw] sm:h-[2vw] flex items-center justify-center border-black border-[1px] rounded-full">COMPANY PRESENTATION</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-row relative flex flex-col sm:flex-row gap-5">
+                    <div data-name="TRAWA" class="project group/edit w-full sm:w-[49%] flex flex-col gap-5 cursor-pointer">
+                        <li>TRAWA</li>
+                        <div class="project-img group-hover/edit:scale-[.9] transition-all duration-700 w-full h-full overflow-hidden rounded-lg">
+                            <img src="https://ochi.design/wp-content/uploads/2023/08/Frame-3875-1326x1101.jpg" alt="" class="w-full h-full object-cover group-hover/edit:scale-[1.2] transition-all duration-700">
+                        </div>
+                        <div class="project-details flex flex-wrap gap-[2vw] sm:gap-[.5vw]">
+                            <p class="w-[37vw] h-[6vw] sm:w-[11vw] sm:h-[2vw] flex items-center justify-center border-black border-[1px] rounded-full">BRAND IDENTITY</p>
+                            <p class="w-[37vw] h-[6vw] sm:w-[12vw] sm:h-[2vw] flex items-center justify-center border-black border-[1px] rounded-full">DESIGN RESEARCH</p>
+                            <p class="w-[37vw] h-[6vw] sm:w-[12vw] sm:h-[2vw] flex items-center justify-center border-black border-[1px] rounded-full">INVESTOR DECK</p>
+                        </div>
+                    </div>
+                    <div id="TRAWA" class="project-name overflow-hidden text-[10vw] leading-[7vw] font-['neu2'] absolute top-[25%] sm:top-1/2 left-1/2 z-10 translate-x-[-50%] translate-y-[-50%] text-[#CDEA68] flex">
+                        <span>T</span>
+                        <span>R</span>
+                        <span>A</span>
+                        <span>W</span>
+                        <span>A</span>
+                    </div>
+                    <div id="PREMIUMBLEND" class="project-name overflow-hidden text-[10vw] leading-[7vw] font-['neu2'] absolute top-[75%] sm:top-1/2 left-1/2 z-10 translate-x-[-50%] translate-y-[-50%] text-[#CDEA68] flex">
+                        <span>P</span>
+                        <span>R</span>
+                        <span>E</span>
+                        <span>M</span>
+                        <span>I</span>
+                        <span>U</span>
+                        <span>M </span>
+                        <span>B</span>
+                        <span>L</span>
+                        <span>E</span>
+                        <span>N</span>
+                        <span>D</span>
+                    </div>
+                    <div data-name="PREMIUMBLEND" class="project group/edit w-full sm:w-[49%] flex flex-col gap-5 cursor-pointer">
+                        <li>PREMIUM BLEND</li>
+                        <div class="project-img group-hover/edit:scale-[.9] transition-all duration-700 w-full h-full overflow-hidden rounded-lg">
+                            <img src="https://ochi.design/wp-content/uploads/2022/12/PB-Front-4-1326x1101.png" alt="" class="w-full h-full object-cover group-hover/edit:scale-[1.2] transition-all duration-700">
+                        </div>
+                        <div class="project-details flex gap-2">
+                            <p class="sm:w-[14vw] w-[43vw] h-[6vw] sm:h-[2vw] flex items-center justify-center border-black border-[1px] rounded-full">BRANDED TEMPLATE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+            <div class="veiwallBtn w-full h-[25vw] sm:h-[10vw] flex items-center justify-center">
+                <div class="veiwBtn cursor-pointer group/edit w-[59vw] sm:w-[18vw] flex items-center justify-between px-[1vw] sm:px-[.5vw] pl-5 font-['neu'] text-white rounded-full h-[13vw] sm:h-[4vw] bg-black">
+                    <p class="sm:text-[1vw] text-[3.5vw]">VIEW ALL CASE STUDIES</p>
+                    <span class="sm:w-[2.8vw] sm:h-[2.8vw] w-[8.5vw] h-[8.5vw] group-hover/edit:scale-[1] transition-all scale-[.2] rounded-full text-black flex items-center justify-center text-[4vw] sm:text-[1.2vw] bg-white"><i class="ri-arrow-right-up-line"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="page6 section bg-[#CDEA68] w-full min-h-screen flex flex-col relative justify-between py-[10vw] sm:py-[10vw] items-center sm:justify-center">
+            <div class="ready-heading hidden sm:block text-center">
+                <p class="sm:text-[14vw] text-[20vw] font-['neu2'] leading-[10vw]">READY <br>
+                TO START <br>
+                THE PROJECT?</p>
+            </div>
+            <div class="ready-heading2 block sm:hidden text-center">
+                <p class="text-[22vw] font-['neu2'] leading-[16vw]">READY <br>
+                TO START <br>
+                THE <br> PROJECT?</p>
+            </div>
+            <div class="btns1 w-[100%] text-black text-center">
+                <div class="startprojectBtn w-full h-[25vw] sm:h-[6vw] flex items-center justify-center">
+                    <div class="startBtn cursor-pointer group/edit w-[63vw] sm:w-[16vw] flex items-center justify-between px-[1vw] sm:px-[.5vw] pl-5 sm:pl-[1vw] font-['neu'] text-white rounded-full h-[15vw] sm:h-[3.8vw] bg-black">
+                        <p class="sm:text-[1vw] text-[4vw]">START THE PROJECT</p>
+                        <span class="w-[12vw] h-[12vw] sm:w-[2.8vw] sm:h-[2.8vw] group-hover/edit:scale-[1] transition-all scale-[.2] rounded-full text-black flex items-center justify-center text-[6vw] sm:text-[1.1vw] bg-white"><i class="ri-arrow-right-up-line"></i></span>
+                    </div>
+                </div>
+                <p>OR</p>
+                <div class="helloochiBtn w-full h-[25vw] sm:h-[6vw] flex items-center justify-center">
+                    <div class="helloBtn cursor-pointer group/edit w-[63vw] sm:w-[16vw] flex items-center justify-between border-[2px] border-black px-[1vw] sm:px-[.5vw] pl-5 sm:pl-[1vw] font-['neu'] text-black rounded-full h-[15vw] sm:h-[3.8vw] hover:bg-black hover:text-white">
+                        <p class="sm:text-[1vw] text-[4vw] uppercase">hello@ochi.design</p>
+                        <span class="w-[12vw] h-[12vw] sm:w-[2.8vw] sm:h-[2.8vw] group-hover/edit:scale-[1] transition-all scale-[.2] rounded-full text-black flex items-center justify-center text-[6vw] sm:text-[1.1vw] bg-white"><i class="ri-arrow-right-up-line"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="eye-con flex gap-[2vw] sm:gap-5 absolute top-1/2 left-1/2 translate-x-[-50%] sm:translate-y-[-75%] translate-y-[-30%] leading-none">
+                <div class="eye w-[30vw] h-[30vw] sm:w-[13vw] sm:h-[13vw] cursor-pointer rounded-full bg-white flex items-center justify-center">
+                    <div class="eye-ball w-[15vw] h-[15vw] sm:w-[8vw] sm:h-[8vw] rounded-full bg-black flex items-center justify-center relative text-white overflow-hidden">
+                        <div class="line w-full h-5 flex justify-end">
+                            <div class="ball w-[2.8vw] h-[2.8vw] sm:w-[2vw] sm:h-[2vw] bg-white rounded-full"></div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="eye w-[30vw] h-[30vw] sm:w-[13vw] sm:h-[13vw] cursor-pointer rounded-full bg-white flex items-center justify-center">
+                    <div class="eye-ball w-[15vw] h-[15vw] sm:w-[8vw] sm:h-[8vw] rounded-full bg-black flex items-center justify-center relative text-white">
+                        <div class="line w-full h-5 flex justify-end">
+                            <div class="ball w-[2.8vw] h-[2.8vw] sm:w-[2vw] sm:h-[2vw] bg-white rounded-full"></div>
+                        </div>
+                    </div> 
+                </div>         
+            </div>
+        </div>
+        <div  class="page7 sm:flex hidden rounded-t-xl w-full  h-screen bg-[#F1F1F1]">
+            <div class="footer-left w-1/2 h-full flex flex-col items-start px-[5vw] justify-between py-10">
+                <h1 class="text-[10vw] font-['neu2'] w-40 leading-[7vw]">EYE-OPENING</h1>
+                <div class="logo">
+                    <svg width="72" height="30" viewBox="0 0 72 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.8393 10.2032C4.22951 10.3257 -0.0459221 14.7356 0.000372391 20.2752C0.0412204 25.3548 4.57808 30.3608 10.6862 29.9226C15.5145 29.5768 19.9015 25.4119 19.8525 20.0057C19.8035 14.5995 15.1904 10.0916 9.8393 10.2032ZM9.89649 25.7005C6.87101 25.7005 4.39834 23.1144 4.40924 19.9839C4.39525 19.2507 4.52792 18.522 4.79947 17.8407C5.07102 17.1594 5.47597 16.5392 5.99056 16.0164C6.50515 15.4937 7.11902 15.0789 7.79613 14.7966C8.47324 14.5142 9.19995 14.3698 9.93362 14.372C10.6673 14.3742 11.3931 14.5228 12.0686 14.8092C12.744 15.0956 13.3554 15.514 13.8668 16.0398C14.3783 16.5656 14.7796 17.1882 15.0471 17.8711C15.3146 18.554 15.4429 19.2834 15.4246 20.0166C15.4409 23.1008 12.9111 25.7059 9.88832 25.7005H9.89649Z" fill="currentColor"></path>
+                        <path d="M62.8086 29.4855H67.1222V10.6372H62.8086V29.4855Z" fill="currentColor"></path>
+                        <path d="M67.6816 0.172852V6.13439H71.5322C71.6738 6.13439 71.8046 6.13439 72.0006 6.11534V0.172852H67.6816Z" fill="currentColor"></path>
+                        <path d="M31.5648 25.7016C28.5393 25.7016 26.0667 23.1156 26.0776 19.9851C26.0936 18.5291 26.6764 17.1366 27.7023 16.1029C28.7282 15.0692 30.1166 14.4757 31.573 14.4482C32.4198 14.4541 33.2537 14.6557 34.0095 15.0373C34.7654 15.4188 35.4227 15.97 35.9301 16.6477L40.0667 15.0144C38.2884 12.0853 35.0669 10.1145 31.4995 10.1989C25.8897 10.3214 21.6142 14.7313 21.6605 20.2709C21.7014 25.3505 26.2382 30.3565 32.3464 29.9183C33.9908 29.7803 35.5761 29.2408 36.9631 28.347C38.3501 27.4532 39.4963 26.2326 40.3009 24.7924L36.2542 22.9931C35.7705 23.8086 35.0851 24.486 34.2638 24.9604C33.4426 25.4347 32.5132 25.69 31.5648 25.7016Z" fill="currentColor"></path>
+                        <path d="M52.4097 10.1387C51.2512 10.1119 50.1066 10.3947 49.0941 10.958C48.0816 11.5212 47.2379 12.3445 46.6501 13.3427V0.172852H42.293V29.4688H46.6501C46.6501 29.1721 46.6501 18.7816 46.6501 18.7816C46.6501 15.6946 47.8619 13.4352 50.8084 13.4352C54.6046 13.4352 54.6209 17.4178 54.6209 19.6962C54.6209 22.9165 54.6209 25.5189 54.6209 28.7393V29.4987H59.0271C59.0271 29.3708 59.0488 29.2728 59.0488 29.1721C59.0488 25.5108 59.0951 21.8522 59.0325 18.1909C58.9916 15.6538 58.5015 10.1387 52.4097 10.1387Z" fill="currentColor"></path>
+                    </svg>
+                </div>
+                
+            </div>
+            <div class="footer-right w-1/2 h-full flex flex-col items-start px-[5vw] justify-between py-10 overflow-hidden">
+                <h1 class="text-[8vw] font-['neu2'] w-40 leading-[7vw]">PRESENTATIONS</h1>
+                <div class="footer w-full flex text-[1.2vw]">
+                    <div class="left w-1/2 h-full font-['neu'] gap-10 flex flex-col">
+                        <div class="social flex flex-col gap-3">
+                            <p>S:</p>
+                            <div class="social-account">
+                                <p>Instagram</p>
+                                <p>Behance</p>
+                                <p>Facebook</p>
+                                <p>Linkedin</p>
+                            </div>
+                        </div>
+                        <div class="location-sec flex flex-col gap-3 w-full">
+                            <p>L:</p>
+                            <div class="location w-full">
+                                <p>30 Chukarina St</p>
+                                <p>Lviv, Ukraine</p>
+                            </div>
+                        </div>
+                        <div class="email-sec flex flex-col gap-3">
+                            <p>E:</p>
+                            <div class="email">
+                                <p>hello@ochi.design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right w-1/2 h-full flex items-center justify-end">
+                        <div class="navigation flex flex-col gap-3">
+                            <p>M:</p>
+                            <div class="nav-btn">
+                                <p>Home</p>
+                                <p>Services</p>
+                                <p>Our work</p>
+                                <p>About us</p>
+                                <p>Insights</p>
+                                <p>Contact us</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer2 section rounded-t-xl w-full flex flex-col min-h-screen bg-[#F1F1F1] sm:hidden">
+            <div class="footer-heading w-full flex flex-col items-start px-[5vw] justify-between py-10">
+                <h1 class="text-[15vw] font-['neu2'] w-40 leading-[11vw]">EYE- <br> OPENING <br> PRESENTATIONS</h1>                
+            </div>
+            <div class="footer-links w-full h-full flex flex-col items-start px-[5vw] justify-between py-10 overflow-hidden">
+                <div class="footer w-full flex text-[4vw] sm:text-[1.2vw]">
+                    <div class="left w-1/2 h-full font-['neu'] gap-10 flex flex-col">
+                        <div class="navigation flex flex-col gap-3">
+                            <p>M:</p>
+                            <div class="nav-btn">
+                                <p>Home</p>
+                                <p>Services</p>
+                                <p>Our work</p>
+                                <p>About us</p>
+                                <p>Insights</p>
+                                <p>Contact us</p>
+                            </div>
+                        </div>
+                        <div class="location-sec flex flex-col gap-3 w-full">
+                            <p>L:</p>
+                            <div class="location w-full">
+                                <p>30 Chukarina St</p>
+                                <p>Lviv, Ukraine</p>
+                            </div>
+                        </div>
+                        <div class="email-sec flex flex-col gap-3">
+                            <p>E:</p>
+                            <div class="email">
+                                <p>hello@ochi.design</p>
+                            </div>
+                        </div>
+                        <div class="logo">
+                            <svg width="72" height="30" viewBox="0 0 72 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.8393 10.2032C4.22951 10.3257 -0.0459221 14.7356 0.000372391 20.2752C0.0412204 25.3548 4.57808 30.3608 10.6862 29.9226C15.5145 29.5768 19.9015 25.4119 19.8525 20.0057C19.8035 14.5995 15.1904 10.0916 9.8393 10.2032ZM9.89649 25.7005C6.87101 25.7005 4.39834 23.1144 4.40924 19.9839C4.39525 19.2507 4.52792 18.522 4.79947 17.8407C5.07102 17.1594 5.47597 16.5392 5.99056 16.0164C6.50515 15.4937 7.11902 15.0789 7.79613 14.7966C8.47324 14.5142 9.19995 14.3698 9.93362 14.372C10.6673 14.3742 11.3931 14.5228 12.0686 14.8092C12.744 15.0956 13.3554 15.514 13.8668 16.0398C14.3783 16.5656 14.7796 17.1882 15.0471 17.8711C15.3146 18.554 15.4429 19.2834 15.4246 20.0166C15.4409 23.1008 12.9111 25.7059 9.88832 25.7005H9.89649Z" fill="currentColor"></path>
+                                <path d="M62.8086 29.4855H67.1222V10.6372H62.8086V29.4855Z" fill="currentColor"></path>
+                                <path d="M67.6816 0.172852V6.13439H71.5322C71.6738 6.13439 71.8046 6.13439 72.0006 6.11534V0.172852H67.6816Z" fill="currentColor"></path>
+                                <path d="M31.5648 25.7016C28.5393 25.7016 26.0667 23.1156 26.0776 19.9851C26.0936 18.5291 26.6764 17.1366 27.7023 16.1029C28.7282 15.0692 30.1166 14.4757 31.573 14.4482C32.4198 14.4541 33.2537 14.6557 34.0095 15.0373C34.7654 15.4188 35.4227 15.97 35.9301 16.6477L40.0667 15.0144C38.2884 12.0853 35.0669 10.1145 31.4995 10.1989C25.8897 10.3214 21.6142 14.7313 21.6605 20.2709C21.7014 25.3505 26.2382 30.3565 32.3464 29.9183C33.9908 29.7803 35.5761 29.2408 36.9631 28.347C38.3501 27.4532 39.4963 26.2326 40.3009 24.7924L36.2542 22.9931C35.7705 23.8086 35.0851 24.486 34.2638 24.9604C33.4426 25.4347 32.5132 25.69 31.5648 25.7016Z" fill="currentColor"></path>
+                                <path d="M52.4097 10.1387C51.2512 10.1119 50.1066 10.3947 49.0941 10.958C48.0816 11.5212 47.2379 12.3445 46.6501 13.3427V0.172852H42.293V29.4688H46.6501C46.6501 29.1721 46.6501 18.7816 46.6501 18.7816C46.6501 15.6946 47.8619 13.4352 50.8084 13.4352C54.6046 13.4352 54.6209 17.4178 54.6209 19.6962C54.6209 22.9165 54.6209 25.5189 54.6209 28.7393V29.4987H59.0271C59.0271 29.3708 59.0488 29.2728 59.0488 29.1721C59.0488 25.5108 59.0951 21.8522 59.0325 18.1909C58.9916 15.6538 58.5015 10.1387 52.4097 10.1387Z" fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="right w-1/2 h-full flex justify-start">
+                        <div class="social flex flex-col gap-3">
+                            <p>S:</p>
+                            <div class="social-account">
+                                <p>Instagram</p>
+                                <p>Behance</p>
+                                <p>Facebook</p>
+                                <p>Linkedin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
